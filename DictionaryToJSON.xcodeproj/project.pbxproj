@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		73C8E9641BCB8AF7001A617F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C8E9631BCB8AF7001A617F /* main.m */; };
+		73C8E96D1BCB8B04001A617F /* TTTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C8E96A1BCB8B04001A617F /* TTTDictionary.m */; settings = {ASSET_TAGS = (); }; };
+		73C8E9721BCB8BA4001A617F /* DictionaryJSONService.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C8E9711BCB8BA4001A617F /* DictionaryJSONService.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		73C8E9601BCB8AF7001A617F /* DictionaryToJSON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DictionaryToJSON; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C8E9631BCB8AF7001A617F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73C8E96A1BCB8B04001A617F /* TTTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTDictionary.m; sourceTree = "<group>"; };
+		73C8E96B1BCB8B04001A617F /* TTTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTDictionary.h; sourceTree = "<group>"; };
+		73C8E96C1BCB8B04001A617F /* DictionaryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryKit.h; sourceTree = "<group>"; };
+		73C8E9701BCB8BA4001A617F /* DictionaryJSONService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryJSONService.h; sourceTree = "<group>"; };
+		73C8E9711BCB8BA4001A617F /* DictionaryJSONService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryJSONService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		73C8E9621BCB8AF7001A617F /* DictionaryToJSON */ = {
 			isa = PBXGroup;
 			children = (
+				73C8E96A1BCB8B04001A617F /* TTTDictionary.m */,
+				73C8E96B1BCB8B04001A617F /* TTTDictionary.h */,
+				73C8E96C1BCB8B04001A617F /* DictionaryKit.h */,
 				73C8E9631BCB8AF7001A617F /* main.m */,
+				73C8E9701BCB8BA4001A617F /* DictionaryJSONService.h */,
+				73C8E9711BCB8BA4001A617F /* DictionaryJSONService.m */,
 			);
 			path = DictionaryToJSON;
 			sourceTree = "<group>";
@@ -118,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C8E96D1BCB8B04001A617F /* TTTDictionary.m in Sources */,
 				73C8E9641BCB8AF7001A617F /* main.m in Sources */,
+				73C8E9721BCB8BA4001A617F /* DictionaryJSONService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
